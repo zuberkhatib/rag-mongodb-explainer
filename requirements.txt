@@ -1,0 +1,12 @@
+# Needed for the app itself (demo mode, no keys)
+streamlit>=1.50
+numpy
+pandas
+altair
+langchain-text-splitters>=1.0   # the same splitter my RAG app uses
+
+# Only used in optional live mode (when keys are added in Streamlit secrets)
+anthropic>=2.9
+pymongo>=4.10
+certifi
+voyageai
